@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/productImageview"
+        android:layout_margin="15dp"
+        >
+    </ImageView>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/productName"
+    android:text="ürün Adı"
+    android:layout_gravity="center"
+    android:textSize="25sp">
+
+</TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/productPrice"
+        android:text="XXTL"
+        android:layout_gravity="center"
+        android:textSize="28sp"
+        android:layout_marginTop="10dp">
+
+    </TextView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="sepete ekle"
+        android:id="@+id/addbasketButton"
+        android:layout_marginTop="5dp">
+
+    </Button>
+</LinearLayout>
